@@ -30,6 +30,7 @@ array<int, 2>^ MultiplyMatrixes(array<int, 2>^ A, array<int, 2>^ B) {
 
 int main(array<System::String ^> ^args)
 {
+    Console::WriteLine(L"New TEXTTT");
     Console::WriteLine(L"Task 1");
     float pi = Math::PI, n = 0.0018, P = 0.02;
     float V;
